@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.0;
 
-// Name Sajood Ur Rehman Roll no PIAIC75943
-
 contract cryptoBank {
     
     address owner;
