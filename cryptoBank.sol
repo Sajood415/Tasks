@@ -23,7 +23,7 @@ contract cryptoBank {
 
     constructor() payable {
         owner = msg.sender;
-        require (msg.value >= 5*(1e18), "Transfer 50 ether to deploy contract");
+        require (msg.value >= 5*(1e18), "Transfer 50 ethers to deploy contract");
         count = 0;
     }
     
